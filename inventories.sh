@@ -1,6 +1,6 @@
 db.playerWagerInventory.aggregate([{
         $match: {
-
+            partnerCode:"OG"
         }
     }, {
         $lookup: {

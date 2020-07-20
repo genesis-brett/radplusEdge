@@ -8,6 +8,8 @@ BEGIN {
     exchangeRate[9] = 24;
     # currency exchange rate setting
     radCoinExchangeRate["CNY"] = (10/8);
+    radCoinExchangeRate["EUR"] = (10/8);
+    radCoinExchangeRate["USD"] = (20/8);
     # partner baseline setting
     partner["1xBet_R8"]=2.0;
     partner["BBIN"]=4.0;
@@ -32,14 +34,17 @@ BEGIN {
     partner["gt"]=2.0;
     partner["happyluke"]=2.0;
     partner["lebo"]=2.0;
+    partner["OG"]=2.0;
 
 } {
     baseline = 1.0
     if ($1 in partner) {
         baseline = partner[$1];
     }
-    if($3+$4+$5+$6+$7+$8>0){
-        username[$1 "," $2] += radCoinExchangeRate[$3]*($4 + ($5 * exchangeRate[5] + $6 * exchangeRate[6] + $7 * exchangeRate[7] + $8 * exchangeRate[8] + $9 * exchangeRate[9]));
+    if($4+$5+$6+$7+$8+$9>0){
+        if( $3 in radCoinExchangeRate){
+            username[$1 "," $2] += radCoinExchangeRate[$3] * ($4 + ($5 * exchangeRate[5] + $6 * exchangeRate[6] + $7 * exchangeRate[7] + $8 * exchangeRate[8] + $9 * exchangeRate[9]))*baseline;
+        }
     }
 }
 END {
