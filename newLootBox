@@ -1,0 +1,81 @@
+{
+	"lootBoxName" : {
+		"en" : "Quick Box",
+		"zh-hant" : "入門寶箱",
+		"zh-hans" : "入门宝箱",
+		"vi" : "Quick Box",
+		"th" : "Quick Box",
+		"in" : "Quick Box",
+		"ru" : "Quick Box",
+		"tr" : "Quick Box",
+		"ja" : "Quick Box"
+	},
+	"lootBoxType" : "QUICK",
+	"createTime" : ISODate("2019-09-11T10:06:07.646+08:00"),
+	"accountId" : "Brett",
+	"comments" : {
+		"en" : "Quick Try",
+		"zh-hant" : "體驗開箱小幸運",
+		"zh-hans" : "体验开箱小幸运",
+		"vi" : "Thử Nhanh",
+		"th" : "ลองด่วน",
+		"in" : "Coba Cepat",
+		"ru" : "Быстрая попытка",
+		"tr" : "Hemen Dene",
+		"ja" : "クイックトライ"
+	},
+	"contentShorts" : {
+		"en" : "Boost your Radcoins",
+		"zh-hant" : "8R幣翻三倍的機會",
+		"zh-hans" : "8R币翻三倍的机会",
+		"vi" : "Tăng Radcoins của bạn",
+		"th" : "บูสต์ Radcoins ของคุณ",
+		"in" : "Tingkatkan Radcoins Anda",
+		"ru" : "Повысь свой Radcoins",
+		"tr" : "Radcoin Desteği",
+		"ja" : "Radcoinsをブースト"
+	},
+	"showOnTop" : false,
+	"price" : 8.0
+},
+
+{
+	"lootBoxName" : {
+		"en" : "Plus Box",
+		"zh-hant" : "淘金寶箱",
+		"zh-hans" : "淘金宝箱",
+		"vi" : "Plus Box",
+		"th" : "Plus Box",
+		"in" : "Plus Box",
+		"ru" : "Plus Box",
+		"tr" : "Plus Box",
+		"ja" : "Plus Box"
+	},
+	"lootBoxType" : "PLUS",
+	"createTime" : ISODate("2019-09-11T10:07:07.769+08:00"),
+	"accountId" : "Brett",
+	"comments" : {
+		"en" : "Most Popular",
+		"zh-hant" : "人氣寶箱,拚比手氣",
+		"zh-hans" : "人气宝箱,拼比手气",
+		"vi" : "Phổ Biến Nhất",
+		"th" : "ยอดนิยม",
+		"in" : "Paling Populer",
+		"ru" : "Самый популярный",
+		"tr" : "En Popüler",
+		"ja" : "一番人気"
+	},
+	"contentShorts" : {
+		"en" : "Win up to\n {value} {currency}",
+		"zh-hant" : "頭獎高達\n {value} {currency}",
+		"zh-hans" : "头奖高达\n {value} {currency}",
+		"vi" : "Thắng lên đến \n{value} {currency} ",
+		"th" : "รางวัลสูงสุดถึง \n{value} {currency}",
+		"in" : "Menangkan hingga \n {value} {currency}",
+		"ru" : "Выиграйте до\n{value} {currency}",
+		"tr" : "kazanma şansı\n{value} {currency}",
+		"ja" : "獲得: 最大 \n{value} {currency}"
+	},
+	"showOnTop" : false,
+	"price" : 88.0
+}]

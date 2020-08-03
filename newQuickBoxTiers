@@ -1,0 +1,27 @@
+{
+	"awardPrize" : [
+		{
+			"prizeType" : "NEW_RADCOIN",
+			"amount" : 4.0,
+			"amountByCurrency" : {
+				
+			}
+		}
+	],
+	"lootBoxId" : "5f27b9fd953487eaf5097b4d",
+	"tierProbability" : 75.0
+},
+
+{
+	"awardPrize" : [
+		{
+			"prizeType" : "NEW_RADCOIN",
+			"amount" : 12.0,
+			"amountByCurrency" : {
+				
+			}
+		}
+	],
+	"lootBoxId" : "5f27b9fd953487eaf5097b4d",
+	"tierProbability" : 25.0
+}

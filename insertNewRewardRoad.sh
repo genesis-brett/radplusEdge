@@ -1,4 +1,5 @@
 xfile=$1
+host=$2
 index=0
 for rewardRoad in $(cat $1)
 do
@@ -27,7 +28,7 @@ do
       reward=' '
   fi
   echo "radcoins:"$radcoins",reward:"$reward," boostRate:"$boostRate
-  curl --location --request POST 'http://172.16.50.52:8090/api/genplus/leveluprewardroad' \
+  curl --location --request POST "http://$host:8090/api/genplus/leveluprewardroad" \
     --header 'Content-Type: application/json' \
     --data-raw "{
         \"levelMainId\": \"RegularRM02\",

@@ -35,6 +35,7 @@ BEGIN {
     partner["happyluke"]=2.0;
     partner["lebo"]=2.0;
     partner["OG"]=2.0;
+    partner["GNS"]=2.0;
 
 } {
     baseline = 1.0

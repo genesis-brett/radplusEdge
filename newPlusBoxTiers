@@ -1,0 +1,84 @@
+[
+  {
+    "awardPrize": [
+      {
+        "prizeType": "RADCOIN",
+        "amount": 10,
+        "amountByCurrency": {}
+      }
+    ],
+    "lootBoxId": "5f27b9fd953487eaf5097b4e",
+    "tierProbability": 14.99
+  },
+  {
+    "awardPrize": [
+      {
+        "prizeType": "RADCOIN",
+        "amount": 15,
+        "amountByCurrency": {}
+      }
+    ],
+    "lootBoxId": "5f27b9fd953487eaf5097b4e",
+    "tierProbability": 25
+  },
+  {
+    "awardPrize": [
+      {
+        "prizeType": "RADCOIN",
+        "amount": 50,
+        "amountByCurrency": {}
+      }
+    ],
+    "lootBoxId": "5f27b9fd953487eaf5097b4e",
+    "tierProbability": 40
+  },
+  {
+    "awardPrize": [
+      {
+        "prizeType": "RADCOIN",
+        "amount": 50,
+        "amountByCurrency": {}
+      },
+      {
+        "prizeType": "CASH",
+        "amount": 0,
+        "amountByCurrency": {
+          "CNY": 500
+        }
+      }
+    ],
+    "lootBoxId": "5f27b9fd953487eaf5097b4e",
+    "tierProbability": 10
+  },
+  {
+    "awardPrize": [
+      {
+        "prizeType": "RADCOIN",
+        "amount": 100,
+        "amountByCurrency": {}
+      },
+      {
+        "prizeType": "CASH",
+        "amount": 0,
+        "amountByCurrency": {
+          "CNY": 2000
+        }
+      }
+    ],
+    "lootBoxId": "5f27b9fd953487eaf5097b4e",
+    "tierProbability": 10
+  },
+  {
+    "awardPrize": [
+      {
+        "prizeType": "CASH",
+        "amount": 0,
+        "amountByCurrency": {
+          "CNY": 50000
+        }
+      }
+    ],
+    "lootBoxId": "5f27b9fd953487eaf5097b4e",
+    "tierProbability": 0.01
+  }
+]
