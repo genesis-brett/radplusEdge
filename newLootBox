@@ -78,4 +78,84 @@
 	},
 	"showOnTop" : false,
 	"price" : 88.0
-}]
+},
+{
+	"lootBoxName" : {
+		"en" : "Luxury Box",
+		"zh-hant" : "土豪寶箱",
+		"zh-hans" : "土豪宝箱",
+		"vi" : "Luxury Box",
+		"th" : "Luxury Box",
+		"in" : "Luxury Box",
+		"ru" : "Luxury Box",
+		"tr" : "Luxury Box",
+		"ja" : "Luxury Box"
+	},
+	"lootBoxType" : "LUXURY",
+	"createTime" : ISODate("2019-11-05T12:17:01.583+08:00"),
+	"accountId" : "Brett",
+	"comments" : {
+		"en" : "High Reward",
+		"zh-hant" : "躋身土豪發發發",
+		"zh-hans" : "跻身土豪发发发",
+		"vi" : "Thưởng Lớn",
+		"th" : "รางวัลสูง",
+		"in" : "Hadiah Besar",
+		"ru" : "Высокая выплата",
+		"tr" : "Yüksek Ödüllü",
+		"ja" : "高額報酬"
+	},
+	"contentShorts" : {
+		"en" : "Win up to\n {value} {currency}",
+		"zh-hant" : "頭獎高達\n {value} {currency}",
+		"zh-hans" : "头奖高达\n {value} {currency}",
+		"vi" : "Thắng lên đến \n{value} {currency} ",
+		"th" : "รางวัลสูงสุดถึง \n{value} {currency}",
+		"in" : "Menangkan hingga \n {value} {currency}",
+		"ru" : "Выиграйте до\n{value} {currency}",
+		"tr" : "kazanma şansı\n{value} {currency}",
+		"ja" : "獲得: 最大 \n{value} {currency}"
+	},
+	"showOnTop" : false,
+	"price" : 888.0
+},
+{
+	"lootBoxName" : {
+		"en" : "Jackpot Box",
+		"zh-hant" : "至尊寶箱",
+		"zh-hans" : "至尊宝箱",
+		"vi" : "Jackpot Box",
+		"th" : "Jackpot Box",
+		"in" : "Jackpot Box",
+		"ru" : "Jackpot Box",
+		"tr" : "Jackpot Box",
+		"ja" : "Jackpot Box"
+	},
+	"lootBoxType" : "JACKPOT",
+	"createTime" : ISODate("2019-11-05T12:24:35.081+08:00"),
+	"accountId" : "Brett",
+	"comments" : {
+		"en" : "Big Pay Day",
+		"zh-hant" : "獎金狂飆拿不停",
+		"zh-hans" : "奖金狂飙拿不停",
+		"vi" : "Ngày Trả Lớn",
+		"th" : "วันจ่ายก้อนโต",
+		"in" : "Hari Gajian Besar",
+		"ru" : "Высокая выплата",
+		"tr" : "Ödeme Günü",
+		"ja" : "高額支給"
+	},
+	"contentShorts" : {
+		"en" : "Win up to\n {value} {currency}",
+		"zh-hant" : "頭獎高達\n {value} {currency}",
+		"zh-hans" : "头奖高达\n {value} {currency}",
+		"vi" : "Thắng lên đến \n{value} {currency} ",
+		"th" : "รางวัลสูงสุดถึง \n{value} {currency}",
+		"in" : "Menangkan hingga \n {value} {currency}",
+		"ru" : "Выиграйте до\n{value} {currency}",
+		"tr" : "kazanma şansı\n{value} {currency}",
+		"ja" : "獲得: 最大 \n{value} {currency}"
+	},
+	"showOnTop" : false,
+	"price" : 8888.0
+}
