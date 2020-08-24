@@ -23,6 +23,7 @@ BEGIN {
     partner["TGP"]=2.0;
     partner["HongChow"]=2.0;
     partner["BG"]=2.0;
+    partner["W88"]=2.0;
 } {
     baseline = 1.0
     radCoinCurrencyExchangeRate = 1.0
