@@ -10,7 +10,6 @@ BEGIN {
     # currency exchange rate setting
     radCoinExchangeRate["USD"] = 2;
     # partner baseline setting
-    partner["1xBet_R8"]=2.0;
     partner["BBIN"]=4.0;
     partner["BBINTEST"]=4.0;
     partner["BBIN_Staging"]=4.0;
@@ -22,7 +21,8 @@ BEGIN {
     partner["GNS"]=2.0;
     partner["Simbo"]=2.0;
     partner["TGP"]=2.0;
-
+    partner["HongChow"]=2.0;
+    partner["BG"]=2.0;
 } {
     baseline = 1.0
     radCoinCurrencyExchangeRate = 1.0
