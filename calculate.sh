@@ -15,27 +15,13 @@ BEGIN {
     partner["BBINTEST"]=4.0;
     partner["BBIN_Staging"]=4.0;
     partner["BetConstruct"]=2.0;
-    partner["Fun88"]=2.0;
-    partner["GPKTEST"]=2.0;
-    partner["GPK_Staging"]=2.0;
-    partner["GT"]=2.0;
-    partner["GTDemo"]=2.0;
-    partner["GTDemo_radi8"]=2.0;
-    partner["GT_radi8"]=2.0;
-    partner["HappyLuke"]=2.0;
-    partner["Lebo"]=2.0;
-    partner["PDparent"]=2.0;
-    partner["Pomadorro"]=2.0;
-    partner["PomadorroStaging"]=2.0;
-    partner["Royal77R8"]=2.0;
-    partner["Sekabet"]=2.0;
-    partner["fun88"]=2.0;
-    partner["gt"]=2.0;
-    partner["happyluke"]=2.0;
-    partner["lebo"]=2.0;
+    partner["BOS"]=2.0;
+    partner["Rescuebet"]=2.0;
+    partner["Entaplay"]=2.0;
     partner["OG"]=2.0;
     partner["GNS"]=2.0;
     partner["Simbo"]=2.0;
+    partner["TGP"]=2.0;
 
 } {
     baseline = 1.0
