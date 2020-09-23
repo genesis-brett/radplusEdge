@@ -12,22 +12,22 @@ messageId=$(curl -s --location --request POST "https://$bohost/bo-api/messages" 
   -H 'Content-Type: application/json' \
   -d '{
     "partnerCodes": [],
-    "messageCategory": "NEWS",
+    "messageCategory": "MESSAGE",
     "messageTag": "DIALOG",
     "messageSource": "RADPLUS",
     "brand": "RADI8",
     "messageStatus": "ACTIVE",
     "inbox": true,
-    "popup": false,
+    "popup": true,
     "conditional": true,
     "playerIds": {},
     "gameCodes": [],
     "expireDate": 1924963199999,
     "pushDate": 1598500800000,
-    "cta": {
-        "ctaType": null,
-        "payload": "{}"
-    },
+    "cta" : {
+		"ctaType" : "OPEN_RADPLUS_PANEL",
+		"payload" : "{}"
+	},
     "messageContents": [
         {
             "localeCode": "en",
@@ -183,7 +183,7 @@ messageId=$(curl -s --location --request POST "https://$bohost/bo-api/messages" 
         },
         {
             "localeCode": "ja",
-            "title": "おめでとうございます！最初のLoot Boxを入手しました。",
+            "title": "おめでとうございます！最初のLoot Boxを\n入手しました。",
             "subtitle": "",
             "contentDetailOfPushMsg": "おめでとうございます！最初のLoot Boxを入手しました。",
             "previewOfContentDetail": "",
