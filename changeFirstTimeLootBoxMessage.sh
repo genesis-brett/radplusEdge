@@ -2,10 +2,13 @@ username=$1
 passwd=$2
 bohost=$3
 genplushost=$4
-oldmessageId=$5
  
 passwd_hash=$(echo -n "$passwd" | openssl dgst -sha1 | cut -d" " -f2)
 bo_token=$( curl -s "https://$bohost/bo-api/login"  -H 'content-type: application/json' --data-binary "{\"userName\":\"$username\",\"password\":\"$passwd_hash\"}" | cut -d\" -f4 )
+
+oldmessageId=$(curl -s "http://$genplushost:8090/api/messageconditions" |jq '.[] |select(.conditionId == "FIRST_TIME_UNLOCK_LOOTBOX")|.messageId' | cut -d\" -f2)
+
+echo "oldMessageId:",$oldmessageId
 
 messageId=$(curl -s --location --request POST "https://$bohost/bo-api/messages" \
   -H "Authorization: Bearer $bo_token" \
