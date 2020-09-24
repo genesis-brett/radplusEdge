@@ -186,9 +186,9 @@ messageId=$(curl -s --location --request POST "https://$bohost/bo-api/messages" 
         },
         {
             "localeCode": "ja",
-            "title": "おめでとうございます！最初のLoot Boxを\n入手しました。",
+            "title": "おめでとうございます！最初のLoot Boxを入手しました。",
             "subtitle": "",
-            "contentDetailOfPushMsg": "おめでとうございます！最初のLoot Boxを入手しました。",
+            "contentDetailOfPushMsg": "おめでとうございます！最初のLoot Boxを\n入手しました。",
             "previewOfContentDetail": "",
             "contentDetail": "最初のLoot Boxを入手するのに十分なリワードコインを獲得しました。Edgeコントロールパネルに移動して獲得方法を確認します。",
             "ctaText": "今すぐLoot Box入手",
