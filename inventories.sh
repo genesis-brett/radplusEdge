@@ -79,7 +79,7 @@ db.playerWagerInventory.aggregate([{
     },
     {
         $lookup: {
-            from: "playerRadcoinInventory",
+            from: "playerRadCoinInventory",
             localField: "_id",
             foreignField: "_id",
             as: "new_radcoin_info"
