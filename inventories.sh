@@ -1,7 +1,5 @@
 db.playerWagerInventory.aggregate([{
-        $match: {
-            partnerCode:"OG"
-        }
+        $match: {}
     }, {
         $lookup: {
             from: "playerGenCoinInventory",
@@ -80,6 +78,19 @@ db.playerWagerInventory.aggregate([{
         }
     },
     {
+        $lookup: {
+            from: "playerRadcoinInventory",
+            localField: "_id",
+            foreignField: "_id",
+            as: "new_radcoin_info"
+        }
+    }, {
+        $unwind: {
+            path: "$new_radcoin_info",
+            preserveNullAndEmptyArrays: true
+        }
+    },
+    {
         $project: {
             partnerCode: 1,
             playerId: 1,
@@ -113,9 +124,14 @@ db.playerWagerInventory.aggregate([{
                 $ifNull: [{
                     "$subtract": ["$liteFreeSpin_info.totalAdded", "$liteFreeSpin_info.totalUsed"]
                 }, 0]
+            },
+            radcoinBalance: {
+                $ifNull: [{
+                    "$subtract": ["$new_radcoin_info.totalAdded", "$new_radcoin_info.totalUsed"]
+                }, 0]
             }
         }
     }
 ]).forEach(result => {
-    print(result.partnerCode + "," + result.playerId +","+ result.currency + "," + result.gencoinBalance + "," + result.freespinBalance + "," + result.superfreespinBalance + "," + result.wildBalance + "," + result.superWildBalance + "," + result.liteFreeSpinBalance);
+    print(result.partnerCode + "," + result.playerId + "," + result.currency + "," + result.gencoinBalance + "," + result.freespinBalance + "," + result.superfreespinBalance + "," + result.wildBalance + "," + result.superWildBalance + "," + result.liteFreeSpinBalance + "," + result.radcoinBalance);
 });

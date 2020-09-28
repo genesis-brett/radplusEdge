@@ -33,8 +33,8 @@ BEGIN {
     if ($3 in radCoinExchangeRate){
         radCoinCurrencyExchangeRate = radCoinExchangeRate[$3];
     }
-    if($4+$5+$6+$7+$8+$9>0){
-        username[$1 "," $2] += radCoinCurrencyExchangeRate * ($4 + ($5 * exchangeRate[5] + $6 * exchangeRate[6] + $7 * exchangeRate[7] + $8 * exchangeRate[8] + $9 * exchangeRate[9]))*baseline;
+    if($4+$5+$6+$7+$8+$9+$10>0){
+        username[$1 "," $2] += radCoinCurrencyExchangeRate * ($4 + ($5 * exchangeRate[5] + $6 * exchangeRate[6] + $7 * exchangeRate[7] + $8 * exchangeRate[8] + $9 * exchangeRate[9] + $10))*baseline;
     }
 }
 END {
